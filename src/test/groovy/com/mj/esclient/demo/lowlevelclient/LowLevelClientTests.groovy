@@ -24,7 +24,7 @@ class LowLevelClientTests extends BaseTest{
     }
 
     @Test
-    void getAliases8xTest(){
+    void aliasExist8xTest(){
         String uniqueSuffix = getUniqueSuffix()
         String aliasName = "doc_alias_${uniqueSuffix}"
         String indexName = "doc_${uniqueSuffix}"
